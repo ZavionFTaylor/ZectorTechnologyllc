@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zector Technology LLC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+      color: #111;
+    }
+    header {
+      background-color: #cc0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header h2 {
+      margin: 0;
+      font-weight: normal;
+      font-size: 1.2rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      color: #cc0000;
+      border-bottom: 2px solid #D4AF37;
+      padding-bottom: 10px;
+    }
+    .highlight {
+      color: #D4AF37;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border: 3px solid #D4AF37;
+      border-radius: 10px;
+    }
+    .contact-info a {
+      color: #cc0000;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #cc0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .project-card {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zector Technology LLC</h1>
+    <h2>Innovating Every Industry with Robotics | Founded by Zavion Foster Taylor</h2>
+  </header>
+
+  <div class="section">
+    <h3>About Zector</h3>
+    <p><strong>Zector</strong> (from "vector") represents motion, precision, and purpose. At Zector Technology LLC, we harness the power of <span class="highlight">robotics</span> to transform agriculture, advertising, public infrastructure, and more.</p>
+  </div>
+
+  <div class="section">
+    <h3>Projects</h3>
+    <div class="project-card">
+      <h4>Botanical Bot</h4>
+      <p>Designed to combat global hunger by automating the planting, watering, and monitoring of crops in underserved areas. Powered by microcontrollers, moisture sensors, and solar energy.</p>
+    </div>
+    <div class="project-card">
+      <h4>BrightLine LCD Billboard</h4>
+      <p>Revolutionizing advertisement and public messaging with modular, customizable LCD signs. From personal ads to traffic updates, BrightLine connects communities with light and motion.</p>
+    </div>
+  </div>
+
+  <div class="section gallery">
+    <h3>Gallery</h3>
+    <!-- Replace the src with actual file paths -->
+    <img src="Zavion.jpg" alt="Founder Zavion Foster Taylor">
+    <img src="BotanicalBot_Prototype.jpg" alt="Botanical Bot Prototype">
+    <img src="BrightLine_Concept.jpg" alt="BrightLine Concept">
+  </div>
+
+  <div class="section contact-info">
+    <h3>Contact</h3>
+    <p>Name: <strong>Zavion Foster Taylor</strong></p>
+    <p>Email: <a href="mailto:Zavionftaylor@gmail.com">Zavionftaylor@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/zavion-taylor-ba81541b4" target="_blank">linkedin.com/in/zavion-taylor</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Zector Technology LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
